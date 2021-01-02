@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
         comment = (TextView) findViewById(R.id.comment);
     }
 
-    public void calculateBMI(View v) {
+    public void calculateBMI(View v) 
+    {
         String heightStr = height.getText().toString();
         String weightStr = weight.getText().toString();
         float heightValue = Float.parseFloat(heightStr)*3;
