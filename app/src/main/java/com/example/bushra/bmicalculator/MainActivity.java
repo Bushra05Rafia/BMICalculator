@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
     private TextView comment;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) 
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         height = (EditText) findViewById(R.id.height);
